@@ -1,0 +1,100 @@
+src/
+│
+├── main.rs
+├── app.rs
+├── config.rs
+│
+├── auth/
+│   ├── mod.rs
+│   ├── auth_user.rs
+│   ├── middleware.rs
+│   ├── permissions.rs
+│   └── token.rs
+│
+├── tenants/
+│   ├── mod.rs
+│   ├── handler.rs
+│   ├── action.rs
+│   ├── repository.rs
+│   ├── model.rs
+│   ├── dto.rs
+│   ├── resource.rs
+│   └── response.rs
+│
+├── users/
+│   ├── mod.rs
+│   ├── handler.rs
+│   ├── action.rs
+│   ├── repository.rs
+│   ├── model.rs
+│   ├── dto.rs
+│   ├── resource.rs
+│   └── response.rs
+│
+├── products/
+│   ├── mod.rs
+│   ├── handler.rs
+│   ├── action.rs
+│   ├── repository.rs
+│   ├── model.rs
+│   ├── dto.rs
+│   ├── resource.rs
+│   └── response.rs
+│
+├── inventory/
+│   ├── mod.rs
+│   ├── handler.rs
+│   ├── action.rs
+│   ├── repository.rs
+│   ├── model.rs
+│   ├── dto.rs
+│   ├── resource.rs
+│   └── response.rs
+│
+├── categories/
+├── departments/
+├── options/
+├── contacts/
+├── warehouses/
+│
+├── documents/
+│   ├── mod.rs
+│   ├── handler.rs
+│   ├── action.rs
+│   ├── repository.rs
+│   ├── model.rs
+│   ├── dto.rs
+│   ├── resource.rs
+│   └── response.rs
+│
+├── payments/
+├── cash_movements/
+├── finance/
+├── notifications/
+├── whatsapp/
+├── audits/
+└── subscriptions/
+│
+├── database/
+│   ├── mod.rs
+│   ├── pool.rs
+│   └── migrations/
+│
+├── errors/
+│   ├── mod.rs
+│   └── app_error.rs
+│
+├── middleware/
+│   ├── mod.rs
+│   ├── tenant.rs
+│   ├── auth.rs
+│   └── request_id.rs
+│
+├── pagination/
+│   ├── mod.rs
+│   └── pagination.rs
+│
+└── shared/
+    ├── id.rs
+    ├── datetime.rs
+    └── utils.rs
